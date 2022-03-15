@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    height: 20vh;
+    background-color: rgb(75, 5, 38);
+}
+
+
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+.nav{
+    width: 30%;
+    height: 50%;
+    background-color: rgb(6, 230, 155);
+    
+}
+.ads{
+    width: 30%;
+    height: 50%;
+    background-color: rgb(17, 104, 175);
+}
+.article{
+    width: 70%;
+    height: 80%;
+    background-color: rgb(17, 175, 149);
+
+}
+
+.footer{
+    width: 70%;
+    height: 20%;
+    background-color: rgb(175, 17, 104);
+}
